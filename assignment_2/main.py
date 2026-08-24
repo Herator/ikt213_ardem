@@ -35,7 +35,7 @@ def rotation (image, rotation_angle):
         return cv2.rotate(image, cv2.ROTATE_180)
 
 
-img = cv2.imread("./solutions/iris.png")
+img = cv2.imread("./iris.png")
 h, w, channels = img.shape[:3]
 
 # Task 1
